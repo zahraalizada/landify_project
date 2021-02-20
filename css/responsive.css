@@ -1,0 +1,636 @@
+/* x < 576px */
+
+@media screen and (max-width: 576px) {
+    /* header */
+    header ul,
+    header .store-items {
+        display: none !important;
+    }
+    .hamburger-menu {
+        display: block;
+        font-size: 1.5rem;
+    }
+    .header-fixed {
+        height: 52px;
+    }
+    /* main-area */
+    .main-left-items,
+    .main-left-item {
+        justify-content: center !important;
+        text-align: center !important;
+    }
+    #main-area h1 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-top: 2rem;
+        max-width: 350px;
+    }
+    .lmain-btn {
+        padding: 2px 20px;
+        font-size: 1rem;
+        margin-top: 0;
+        min-width: 150px;
+    }
+    .main-img {
+        height: 250px;
+        margin: 10px auto;
+    }
+    /* owl carousel */
+    .owl-carousel .owl-item img {
+        width: 85%;
+        margin-left: 10px;
+    }
+    /* features */
+    #features {
+        margin-top: 1rem;
+    }
+    .features-item {
+        margin-bottom: 1.5rem;
+    }
+    .features-head h2 {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+    .features-head div {
+        font-size: 0.8125rem;
+        line-height: 1.3rem;
+        max-width: 400px;
+    }
+    .f-logo {
+        width: 25px;
+        height: 25px;
+    }
+    .features-item h5 {
+        font-size: 1.3rem;
+    }
+    .features-item div {
+        font-size: .8rem;
+        line-height: 1.2rem;
+    }
+    /* customers */
+    #customers {
+        padding-top: 3rem;
+        padding-bottom: 0;
+    }
+    .cleft-item {
+        margin-bottom: 2rem;
+    }
+    .cleft-item,
+    .cright-item {
+        max-width: 100%;
+        width: 100%;
+    }
+    .customers-logo {
+        margin-bottom: 1rem;
+    }
+    .quotes-mini {
+        max-height: 10px;
+    }
+    .main-title h2,
+    .title-second h3 {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+    .customers-logo img {
+        max-height: 30px;
+    }
+    .main-title div,
+    .customers-text,
+    .customers-txt,
+    .title-second div {
+        font-size: .8rem;
+        line-height: 1.4rem;
+    }
+    .customers-text {
+        max-width: 100%;
+    }
+    .customers-desc p {
+        font-size: .825rem;
+        line-height: 1.4rem;
+    }
+    .customers-desc span {
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+    #customers .quotes-bg {
+        top: -8px;
+        left: -14px;
+    }
+    #customers .quotes-bg img {
+        max-height: 28px;
+    }
+    /* achivments */
+    #achivments {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .ach-desc h4 {
+        color: #18191F;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        font-family: Manrope-ExtraBold;
+    }
+    .ach-desc span {
+        color: #18191F;
+        font-size: .7rem;
+        line-height: 1rem;
+        font-family: Manrope-Regular;
+    }
+    .ach-mb-0 {
+        margin-bottom: 0;
+    }
+    .ach-bb {
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
+        padding: 1.25rem 0;
+    }
+    .mb-16 {
+        margin-bottom: 1rem;
+    }
+    /* headline */
+    #headline {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .headline-img {
+        margin-bottom: 1rem;
+    }
+    .headline-img img {
+        max-height: 200px;
+    }
+    #headline .title-second div {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .headline-btn {
+        font-size: .9rem;
+    }
+    .ach-px-5 {
+        padding: 0;
+    }
+    /* fashion */
+    #fashion {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    /* projects */
+    #projects {
+        padding-top: 32px;
+        padding-bottom: 16px;
+    }
+    .pr-img2 {
+        position: relative;
+        top: 64px;
+        left: -123px;
+    }
+    /* footer */
+    footer {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .f-links {
+        margin-top: 18px;
+        margin-bottom: 4px;
+    }
+    .f-links a {
+        font-size: 14px;
+    }
+    footer .nav li a {
+        font-size: 12px;
+        margin-right: 0;
+    }
+    .copyr {
+        font-size: 12px;
+        margin-top: 14px;
+    }
+    footer .pr-app span {
+        font-size: 14px;
+    }
+    .pr-app-logo img {
+        height: 35px;
+    }
+}
+
+
+/* 576 > x > 768px */
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    /* general */
+    .main-title {
+        max-width: 100%;
+    }
+    /* header */
+    header ul,
+    header .store-items {
+        display: none !important;
+    }
+    .header-fixed {
+        height: 59px;
+    }
+    .hamburger-menu {
+        display: block;
+        font-size: 1.8rem;
+    }
+    /* main-area */
+    #main-area h1 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .lmain-btn {
+        padding: 3px 15px;
+        min-width: 170px;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    .main-img {
+        height: 300px;
+        margin: 10px auto;
+    }
+    /* features */
+    #features {
+        margin-top: 2rem;
+    }
+    .features-item {
+        margin-bottom: 2.5rem;
+    }
+    .features-head h2 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .features-head div {
+        font-size: .9rem;
+        line-height: 1.5rem;
+    }
+    .f-logo {
+        width: 28px;
+        height: 28px;
+    }
+    .features-item h5 {
+        font-size: 1.3rem;
+    }
+    .features-item div {
+        font-size: .9rem;
+        line-height: 1.3rem;
+    }
+    /* customers */
+    #customers {
+        padding-top: 5rem;
+        padding-bottom: 1rem;
+    }
+    .cleft-item {
+        margin-bottom: 2rem;
+    }
+    .cleft-item,
+    .cright-item {
+        max-width: 100%;
+        width: 100%;
+    }
+    .main-title h2,
+    .title-second h3 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .customers-logo img {
+        max-height: 30px;
+    }
+    .main-title div,
+    .customers-text,
+    .customers-txt,
+    .title-second div {
+        font-size: .8rem;
+        line-height: 1.4rem;
+    }
+    .customers-text {
+        max-width: 100%;
+    }
+    .customers-desc p {
+        font-size: .825rem;
+        line-height: 1.4rem;
+    }
+    .customers-desc span {
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+    #customers .quotes-bg {
+        top: -15px;
+        left: -38px;
+    }
+    #customers .quotes-bg img {
+        max-height: 45px;
+    }
+    /* achivments */
+    #achivments {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .ach-desc h4 {
+        color: #18191F;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        font-family: Manrope-ExtraBold;
+    }
+    .ach-desc span {
+        color: #18191F;
+        font-size: .8rem;
+        line-height: 1rem;
+        font-family: Manrope-Regular;
+    }
+    .ach-mb-0 {
+        margin-bottom: 0;
+    }
+    .ach-bb {
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
+        padding: 1.25rem 0;
+    }
+    /* headline */
+    #headline {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .headline-img {
+        margin-bottom: 1rem;
+    }
+    .headline-img img {
+        max-height: 250px;
+    }
+    #headline .title-second div {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .headline-btn {
+        font-size: .9rem;
+    }
+    .ach-px-5 {
+        padding: 0;
+    }
+    /* fashion */
+    #fashion {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    /* projects */
+    #projects {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .pr-img2 {
+        position: relative;
+        top: 64px;
+        left: -123px;
+    }
+    /* footer */
+    footer {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .f-links {
+        margin-top: 18px;
+        margin-bottom: 4px;
+    }
+    .f-links a {
+        font-size: 14px;
+    }
+    footer .nav li a {
+        font-size: 12px;
+        margin-right: 0;
+    }
+    .copyr {
+        font-size: 12px;
+        margin-top: 14px;
+    }
+    footer .pr-app span {
+        font-size: 14px;
+    }
+    .pr-app-logo img {
+        height: 35px;
+    }
+}
+
+
+/* 768 > x > 992px */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /* header */
+    header ul,
+    header .store-items {
+        display: none !important;
+    }
+    .hamburger-menu {
+        display: block;
+    }
+    /* main-area */
+    #main-area h1 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .lmain-btn {
+        padding: 10px 15px;
+        min-width: 200px;
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+    #main-area .main-img {
+        height: 400px;
+        margin: 27px auto;
+    }
+    /* features */
+    #features {
+        margin-top: 3rem;
+    }
+    .features-item {
+        margin-bottom: 48px;
+    }
+    .features-head h2 {
+        font-size: 2.1rem;
+        line-height: 2.5rem;
+    }
+    .features-head div {
+        font-size: .925rem;
+        line-height: 1.5rem;
+    }
+    .f-logo {
+        width: 30px;
+        height: 30px;
+    }
+    .features-item h5 {
+        font-size: 1.35rem;
+    }
+    .features-item div {
+        font-size: .9rem;
+        line-height: 1.4rem;
+    }
+    /* customers */
+    #customers {
+        padding-top: 6rem;
+        padding-bottom: 1rem;
+    }
+    .main-title h2,
+    .title-second h3 {
+        font-size: 2.3rem;
+        line-height: 3.3rem;
+    }
+    .main-title div,
+    .customers-text,
+    .customers-txt,
+    .title-second div {
+        font-size: .9rem;
+        line-height: 1.6rem;
+    }
+    .customers-desc p {
+        font-size: .9rem;
+        line-height: 1.4rem;
+    }
+    .customers-desc span {
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+    #customers .quotes-bg {
+        top: -20px;
+        left: -45px;
+    }
+    #customers .quotes-bg img {
+        max-height: 65px;
+    }
+    /* achvments */
+    #achivments {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .ach-desc h4 {
+        color: #18191F;
+        font-size: 1.3rem;
+        line-height: 1rem;
+        font-family: Manrope-ExtraBold;
+    }
+    .ach-desc span {
+        color: #18191F;
+        font-size: .61rem;
+        line-height: 1rem;
+        font-family: Manrope-Regular;
+    }
+    /* headline */
+    #headline {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .headline-img {
+        margin-bottom: 2rem;
+    }
+    .headline-img img {
+        max-height: 300px;
+    }
+    #headline .title-second div {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .headline-btn {
+        font-size: 1rem;
+    }
+    /* fashion */
+    #fashion {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    /* projects */
+    #projects {
+        padding-bottom: 0;
+    }
+    /* footer */
+    footer {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .f-links {
+        margin-top: 18px;
+        margin-bottom: 4px;
+    }
+    .f-links a {
+        font-size: 14px;
+    }
+    footer .nav li a {
+        font-size: 12px;
+        margin-right: 14px;
+    }
+    .copyr {
+        font-size: 12px;
+        margin-top: 14px;
+    }
+    footer .pr-app span {
+        font-size: 16px;
+    }
+    .pr-app-logo img {
+        height: 35px;
+    }
+}
+
+
+/* 992 > x > 1200px */
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    /* main-area */
+    #main-area h1 {
+        font-size: 3.5rem;
+        line-height: 4.5rem;
+    }
+    .lmain-btn {
+        padding: 10px 20px;
+        font-size: 1.4rem;
+    }
+    #main-area .main-img {
+        height: 500px;
+        margin: 35px auto;
+    }
+    /* features */
+    #features {
+        margin-top: 3.2rem;
+    }
+    .features-head h2 {
+        font-size: 2.5rem;
+        line-height: 2.7rem;
+    }
+    .features-head div {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .features-item h5 {
+        font-size: 1.4rem;
+    }
+    .features-item div {
+        font-size: .95rem;
+        line-height: 1.4rem;
+    }
+    /* customers */
+    #customers {
+        padding-bottom: 64px;
+    }
+    .main-title h2,
+    .title-second h3 {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+    .main-title div,
+    .customers-text,
+    .customers-txt,
+    .title-second div {
+        font-size: 1rem;
+        line-height: 1.7rem;
+    }
+    /* achivement */
+    #achivments {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    /* headloine */
+    #headline {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    /* fashion */
+    #fashion {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    /* projects */
+    #projects {
+        padding-bottom: 0;
+    }
+}

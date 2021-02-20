@@ -1,0 +1,520 @@
+body {
+    font-family: Manrope-Regular;
+}
+
+.mb-40 {
+    margin-bottom: 2.5rem;
+}
+
+.title-second h3 {
+    color: #18191F;
+    font-size: 2.5rem;
+    line-height: 3.375rem;
+    font-family: Manrope-ExtraBold;
+}
+
+.title-second div {
+    color: #18191F;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    font-family: Manrope-Regular;
+}
+
+
+/* header */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 2px 27px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 2px 27px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 27px 0px rgba(0, 0, 0, 0.3);
+}
+
+.header-fixed {
+    height: 79px;
+}
+
+header .nav li .nav-link {
+    color: #18191F;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-family: Manrope-Medium;
+    font-weight: 700;
+    text-transform: capitalize;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    transition: .7s all;
+}
+
+header .nav li .nav-link:before {
+    content: '';
+    width: 30px;
+    position: absolute;
+    border-bottom: 2px solid #8C30F5;
+    bottom: 0;
+    right: 350px;
+    transition: .7s all;
+}
+
+header .nav li .nav-link:hover:before {
+    right: 10px;
+}
+
+header .nav li .nav-link:hover {
+    color: #8C30F5;
+}
+
+header .nav li button {
+    background: transparent;
+    border: none transparent;
+    outline: none;
+}
+
+.hamburger-menu {
+    display: none;
+    font-size: 2rem;
+}
+
+.store-items a {
+    display: inline-block;
+    width: 135px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.store-items a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/* main-area */
+
+#main-area {
+    background: url(../img/bg-hero.png) no-repeat center;
+    background-size: cover;
+}
+
+#main-area h1 {
+    color: #18191F;
+    font-size: 4.375rem;
+    line-height: 5.625rem;
+    font-family: Manrope-ExtraBold;
+}
+
+.main-img {
+    height: 604px;
+    max-width: 280px;
+}
+
+.main-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.lmain-btn {
+    display: inline-block;
+    background: #8C30F5;
+    border: 3px solid #8C30F5;
+    padding: 16px 40px;
+    min-width: 196px;
+    text-align: center;
+    text-decoration: none !important;
+    color: #fff;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-family: Manrope-Bold;
+    margin-top: 2rem;
+    transition: all .4s ease;
+}
+
+.lmain-btn:hover {
+    border: 3px solid #8C30F5;
+    color: #8C30F5;
+    background: #f6f9ff;
+}
+
+
+/* partners */
+
+.partners-container {
+    margin-top: 32px;
+    padding-top: 32px;
+    padding-right: 24px;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.partners {
+    position: relative;
+}
+
+.partner-item img {
+    width: 100%;
+    height: 28px;
+    object-fit: contain;
+}
+
+#partner .owl-nav .owl-prev span {
+    color: black;
+    position: absolute;
+    bottom: 20px;
+    left: -15px;
+    font-size: 40px;
+    opacity: .2;
+}
+
+#partner .owl-nav .owl-next span {
+    position: absolute;
+    color: black;
+    bottom: 20px;
+    right: -15px;
+    font-size: 40px;
+    opacity: .2;
+}
+
+#partner .owl-nav .owl-prev span:hover,
+#partner .owl-nav .owl-next span:hover {
+    opacity: .7;
+    color: #8C30F5;
+}
+
+
+/* features */
+
+#features {
+    margin-top: 4rem;
+}
+
+.features-item {
+    margin-bottom: 4rem;
+}
+
+.features-head h2 {
+    color: #18191F;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-family: Manrope-ExtraBold;
+}
+
+.features-head div {
+    color: #18191F;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    font-family: Manrope-Regular;
+    max-width: 540px;
+}
+
+.f-logo {
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+
+.f-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.features-item h5 {
+    color: #18191F;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: Manrope-SemiBold;
+}
+
+.features-item div {
+    color: #18191F;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    font-family: Manrope-Regular;
+}
+
+
+/*  customers */
+
+#customers {
+    background: #D5FAFC;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+}
+
+.main-title {
+    max-width: 445px;
+    position: relative;
+}
+
+.main-title .quotes-bg {
+    position: absolute;
+    top: -56px;
+    left: -88px;
+    z-index: 1;
+    opacity: .3;
+}
+
+.main-title h2 {
+    color: #18191F;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-family: Manrope-ExtraBold;
+    position: relative;
+    z-index: 2;
+}
+
+.main-title div,
+.customers-text,
+.customers-txt {
+    color: #18191F;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    font-family: Manrope-Regular;
+}
+
+.cleft-item,
+.cright-item {
+    max-width: 350px;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 10px 20px 0px rgba(41, 41, 42, 0.07);
+    -moz-box-shadow: 0px 10px 20px 0px rgba(41, 41, 42, 0.07);
+    box-shadow: 0px 10px 20px 0px rgba(41, 41, 42, 0.07);
+}
+
+.customers-logo {
+    margin-bottom: 2rem;
+}
+
+.customers-desc p {
+    color: #18191F;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-family: Manrope-Bold;
+}
+
+.customers-desc span {
+    color: #969BAB;
+    font-size: .875rem;
+    line-height: 1.5rem;
+    font-family: Manrope-Medium;
+}
+
+.customers-text {
+    max-width: 254px;
+}
+
+.cright-item {
+    max-width: 445px;
+    margin-bottom: 32px;
+}
+
+.cus-width-none {
+    max-width: none;
+}
+
+.cright-item-bottom {
+    max-width: 350px;
+}
+
+
+/* achivments */
+
+#achivments {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.ach-item {
+    max-width: 255px;
+}
+
+.ach-logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.ach-desc h4 {
+    color: #18191F;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    font-family: Manrope-ExtraBold;
+}
+
+.ach-desc span {
+    color: #18191F;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    font-family: Manrope-Regular;
+}
+
+
+/* headline */
+
+#headline {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.headline-img {
+    background: #F1E4FF;
+    border-radius: 8px;
+}
+
+.headline-img img {
+    width: 100%;
+    object-fit: contain;
+    object-position: bottom;
+}
+
+.ach-px-5 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.headline-btn,
+.head-line-btn i {
+    color: #8C30F5;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-family: Manrope-Bold;
+    min-width: 145px;
+}
+
+.headline-btn:hover {
+    background: -webkit-linear-gradient( #ccaaf0, #2ec5ce, #8C30F5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#headline .title-second h3 {
+    margin: 0;
+}
+
+#headline .title-second div {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+/* fashion */
+
+#fashion {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.fashion-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/* projects */
+
+#projects {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background: #2EC5CE;
+}
+
+.pr-app span {
+    color: #18191F;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: Manrope-Medium;
+}
+
+.pr-app-logo {
+    margin-right: 12px;
+}
+
+.pr-img1 {
+    position: relative;
+    top: -64px;
+}
+
+.pr-img2 {
+    position: relative;
+    top: 70px;
+    left: -50px;
+}
+
+.pr-img1 img,
+.pr-img2 img {
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* footer */
+
+footer {
+    padding-top: 56px;
+    padding-bottom: 56px;
+    background: #0B0D17;
+}
+
+.f-links {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.f-links a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: Manrope-Regular;
+    transition: all .5s ease;
+    margin-right: 24px;
+}
+
+.f-links a:hover {
+    opacity: .5;
+    text-decoration: none;
+}
+
+footer .f-left ul {
+    padding: 0;
+}
+
+footer .pr-app span {
+    color: #D9DBE1;
+}
+
+footer .nav li a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: Manrope-Regular;
+    transition: all .5s ease;
+    margin-right: 24px;
+}
+
+footer .nav li a:hover {
+    color: #8C30F5;
+    text-decoration: none;
+}
+
+.copyr {
+    color: #D9DBE1;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Manrope-Regular;
+    margin-top: 24px;
+}

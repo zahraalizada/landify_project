@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "azn";
+    src: url(fonts/AZN.ttf);
+}
+
+
+/* 200 */
+
+@font-face {
+    font-family: Manrope-ExtraLight;
+    src: url(../css/fonts/Manrope-ExtraLight.ttf);
+}
+
+
+/* 300 */
+
+@font-face {
+    font-family: Manrope-Light;
+    src: url(../css/fonts/Manrope-Light.ttf);
+}
+
+
+/* 400 */
+
+@font-face {
+    font-family: Manrope-Regular;
+    src: url(../css/fonts/Manrope-Regular.ttf);
+}
+
+
+/* 500 */
+
+@font-face {
+    font-family: Manrope-Medium;
+    src: url(../css/fonts/Manrope-Medium.ttf);
+}
+
+
+/* 600 */
+
+@font-face {
+    font-family: Manrope-SemiBold;
+    src: url(../css/fonts/Manrope-SemiBold.ttf);
+}
+
+
+/* 700 */
+
+@font-face {
+    font-family: Manrope-Bold;
+    src: url(../css/fonts/Manrope-Bold.ttf);
+}
+
+
+/* 800 */
+
+@font-face {
+    font-family: Manrope-ExtraBold;
+    src: url(../css/fonts/Manrope-ExtraBold.ttf);
+}

@@ -518,3 +518,50 @@ footer .nav li a:hover {
     font-family: Manrope-Regular;
     margin-top: 24px;
 }
+
+
+/* about html */
+
+#about .main-title {
+    max-width: 100%;
+    width: 100%;
+}
+
+.about-head img {
+    width: 100%;
+    height: 100%;
+    object-position: cover;
+    object-position: center;
+}
+
+
+/* clients */
+
+#clients {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.clients-item {
+    overflow: hidden;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: all .5s ease;
+}
+
+.clients-item:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.clients-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+#about .main-title .fadeInUp,
+#about .main-title .fadeInDown {
+    animation-duration: 1s;
+}

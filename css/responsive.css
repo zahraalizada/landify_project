@@ -208,6 +208,11 @@
     .pr-app-logo img {
         height: 35px;
     }
+    /* clients */
+    #clients {
+        padding-top: 32px;
+        padding-bottom: 8px;
+    }
 }
 
 
@@ -403,6 +408,11 @@
     .pr-app-logo img {
         height: 35px;
     }
+    /* clients */
+    #clients {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
 }
 
 
@@ -560,6 +570,11 @@
     .pr-app-logo img {
         height: 35px;
     }
+    /* clients */
+    #clients {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
 }
 
 
@@ -632,5 +647,10 @@
     /* projects */
     #projects {
         padding-bottom: 0;
+    }
+    /* clients */
+    #clients {
+        padding-top: 48px;
+        padding-bottom: 48px;
     }
 }

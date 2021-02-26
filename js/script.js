@@ -26,4 +26,10 @@ $(".partners-slider").owlCarousel({
             items: 5
         }
     }
+
+})
+
+$(function() {
+    new WOW().init();
+
 })

@@ -213,6 +213,12 @@
         padding-top: 32px;
         padding-bottom: 8px;
     }
+    /* ANIMATIONS */
+    #main-area .main-left-item .slideInDown,
+    #main-area .main-left-item .slideInUp,
+    #main-area .fadeIn {
+        animation-duration: 2s;
+    }
 }
 
 

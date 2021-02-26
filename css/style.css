@@ -561,7 +561,37 @@ footer .nav li a:hover {
     object-position: center;
 }
 
+
+/* ANIMATIONS  */
+
 #about .main-title .fadeInUp,
-#about .main-title .fadeInDown {
+#about .fadeInDown {
+    animation-duration: 2s;
+}
+
+#main-area .main-left-item .slideInDown,
+#main-area .main-left-item .slideInUp,
+#main-area .slideInRight {
+    animation-duration: 3s;
+}
+
+#partner .fadeIn {
+    animation-duration: 2s;
+}
+
+#customers .fadeIn,
+#customers .slideInLeft,
+#customers .slideInUp,
+#customers .slideInRight {
     animation-duration: 1s;
+}
+
+#achivments .rubberBand {
+    animation-duration: 1.2s;
+}
+
+#projects .fadeInDown,
+#projects .fadeInUp,
+#projects .fadeIn {
+    animation-duration: 1.8s;
 }

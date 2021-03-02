@@ -440,6 +440,21 @@ header .nav li button {
 
 .pr-app-logo {
     margin-right: 12px;
+    transition: all .4s ease;
+}
+
+#projects .pr-app-logo:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 5px 16px -9px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 5px 16px -9px rgba(0, 0, 0, 1);
+    box-shadow: 0px 5px 16px -9px rgba(0, 0, 0, 1);
+}
+
+footer .pr-app-logo:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 35px -9px rgba(140, 48, 245, 1);
+    -moz-box-shadow: 0px 0px 35px -9px rgba(140, 48, 245, 1);
+    box-shadow: 0px 0px 35px -9px rgba(140, 48, 245, 1);
 }
 
 .pr-img1 {
@@ -552,6 +567,9 @@ footer .nav li a:hover {
 .clients-item:hover {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(140, 48, 245, 1);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(140, 48, 245, 1);
+    box-shadow: 0px 0px 16px 0px rgba(140, 48, 245, 1);
 }
 
 .clients-item img {
@@ -559,6 +577,182 @@ footer .nav li a:hover {
     height: 100%;
     object-fit: contain;
     object-position: center;
+}
+
+
+/* clients-comment */
+
+#clients-comment {
+    background: #D5FAFC;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#clients-comment .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background: none;
+    -webkit-box-shadow: 0px 0px 38px 0px rgba(140, 48, 245, 1);
+    -moz-box-shadow: 0px 0px 38px 0px rgba(140, 48, 245, 1);
+    box-shadow: 0px 0px 38px 0px rgba(140, 48, 245, 1);
+}
+
+#clients-comment .nav-pills .nav-link {
+    border-radius: 50%;
+}
+
+#clients-comment .nav .nav-link {
+    padding: 0 !important;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.cc-items {
+    max-width: 854px;
+    margin: auto;
+}
+
+.cc-comment {
+    color: #18191F;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: Manrope-Regular;
+    padding: 32px;
+    margin-bottom: 36px;
+    border-radius: 10px;
+    background: #fff;
+    -webkit-box-shadow: 0px 30px 40px 0px rgba(212, 217, 232, 0.2);
+    -moz-box-shadow: 0px 30px 40px 0px rgba(212, 217, 232, 0.2);
+    box-shadow: 0px 30px 40px 0px rgba(212, 217, 232, 0.2);
+}
+
+.cc-comment img {
+    margin-right: 20px;
+}
+
+.cc-profile-desc p {
+    color: #18191F;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: Manrope-Bold;
+    margin: 0;
+}
+
+.cc-profile-desc span {
+    color: #18191F;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Manrope-Regular;
+}
+
+
+/* landify-start */
+
+#landify-start {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background: #D5FAFC;
+}
+
+.landify-start-items {
+    background: #2EC5CE;
+    border-radius: 16px;
+}
+
+.ls-right .lsr-right img {
+    transform: scale(1.5);
+}
+
+.ls-left {
+    padding: 48px 0 0 48px;
+}
+
+.ls-left p {
+    color: #18191F;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Manrope-Medium;
+}
+
+.ls-left .ls-btn {
+    color: #8C30F5;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Manrope-Bold;
+    background: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+}
+
+
+/* jobs */
+
+#jobs {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.jobs-title {
+    color: #18191F;
+    font-size: 48px;
+    line-height: 64px;
+    font-family: Manrope-ExtraBold;
+    margin-bottom: 0;
+}
+
+.jp-55 {
+    padding: 0 55px;
+}
+
+.jobs-item {
+    margin-top: 80px;
+}
+
+.jobs-item-right {
+    margin-bottom: 80px;
+}
+
+.jobs-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.jobs-desc {
+    margin-top: 24px;
+}
+
+.jobs-desc h4 {
+    color: #18191F;
+    font-size: 28px;
+    line-height: 40px;
+    font-family: Manrope-ExtraBold;
+    margin-bottom: 8px;
+}
+
+.jobs-desc span {
+    color: #18191F;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: Manrope-Regular;
+}
+
+.j-btn {
+    display: flex;
+    align-items: center;
+    color: #8C30F5;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Manrope-Bold;
+    transition: all .4s ease;
+}
+
+.j-btn:hover {
+    text-decoration: none !important;
+    opacity: .7;
+    color: #8C30F5;
 }
 
 
@@ -583,7 +777,7 @@ footer .nav li a:hover {
 #customers .slideInLeft,
 #customers .slideInUp,
 #customers .slideInRight {
-    animation-duration: 1s;
+    animation-duration: 2s;
 }
 
 #achivments .rubberBand {
@@ -594,4 +788,8 @@ footer .nav li a:hover {
 #projects .fadeInUp,
 #projects .fadeIn {
     animation-duration: 1.8s;
+}
+
+#clients-comment .slideInUp {
+    animation-duration: 1s;
 }

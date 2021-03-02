@@ -213,6 +213,60 @@
         padding-top: 32px;
         padding-bottom: 8px;
     }
+    /* clients-comment */
+    #clients-comment {
+        padding-top: 48px;
+        padding-bottom: 32px;
+    }
+    #clients-comment ul .nav-item {
+        padding: 16px 0px;
+    }
+    #clients-comment ul {
+        margin: 0 !important;
+    }
+    #clients-comment .nav .nav-link {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .cc-comment {
+        font-size: .8rem;
+        line-height: 1.4rem;
+        margin-bottom: 30px;
+    }
+    .cc-comment img {
+        margin-right: 9px;
+    }
+    .cc-profile-desc p {
+        font-size: .825rem;
+        line-height: 1.4rem;
+    }
+    .cc-profile-desc span {
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+    /* landify-start */
+    #landify-start {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    #landify-start .ls-left p {
+        font-size: .8rem;
+        line-height: 1.4rem;
+    }
+    .ls-left {
+        padding: 24px 0;
+        text-align: center;
+    }
+    .ls-left .ls-btn {
+        font-size: 14px;
+        line-height: 9px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .ls-right .lsr-right img {
+        transform: scale(1);
+        margin-bottom: 24px;
+    }
     /* ANIMATIONS */
     #main-area .main-left-item .slideInDown,
     #main-area .main-left-item .slideInUp,
@@ -419,6 +473,48 @@
         padding-top: 32px;
         padding-bottom: 32px;
     }
+    /* clients-comment */
+    #clients-comment {
+        padding-top: 48px;
+        padding-bottom: 32px;
+    }
+    #clients-comment ul .nav-item {
+        padding: 24px 16px;
+    }
+    #clients-comment ul {
+        margin: 0 !important;
+    }
+    .cc-comment {
+        font-size: .8rem;
+        line-height: 1.4rem;
+        margin-bottom: 30px;
+    }
+    .cc-profile-desc p {
+        font-size: .825rem;
+        line-height: 1.4rem;
+    }
+    .cc-profile-desc span {
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+    /* landify-start */
+    #landify-start {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    #landify-start .ls-left p {
+        font-size: .8rem;
+        line-height: 1.3rem;
+    }
+    .ls-left .ls-btn {
+        font-size: 14px;
+        line-height: 9px;
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+    .ls-right .lsr-right img {
+        transform: scale(1);
+    }
 }
 
 
@@ -581,6 +677,37 @@
         padding-top: 32px;
         padding-bottom: 32px;
     }
+    /* clients-comment */
+    .cc-comment {
+        font-size: .9rem;
+        line-height: 1.6rem;
+    }
+    .cc-profile-desc p {
+        font-size: .9rem;
+        line-height: 1.4rem;
+    }
+    .cc-profile-desc span {
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+    /* landify-start */
+    #landify-start {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    #landify-start .ls-left p {
+        font-size: .9rem;
+        line-height: 1.6rem;
+    }
+    .ls-left .ls-btn {
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
+    .ls-right .lsr-right img {
+        transform: scale(1.2);
+    }
 }
 
 
@@ -658,5 +785,14 @@
     #clients {
         padding-top: 48px;
         padding-bottom: 48px;
+    }
+    /* landify-start */
+    #landify-start .ls-left p {
+        font-size: 1rem;
+        line-height: 1.7rem;
+    }
+    .ls-left .ls-btn {
+        font-size: 18px;
+        line-height: 22px;
     }
 }

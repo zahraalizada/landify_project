@@ -2,16 +2,36 @@
 
 @media screen and (max-width: 576px) {
     /* header */
-    header ul,
     header .store-items {
         display: none !important;
+    }
+    .header-fixed {
+        height: 52px;
     }
     .hamburger-menu {
         display: block;
         font-size: 1.5rem;
     }
-    .header-fixed {
-        height: 52px;
+    header .lhead-nav {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #ccaaf0;
+        top: 50px;
+        left: 0;
+        -webkit-transform: translate(-100%);
+        transform: translate(-100%);
+        transition: .5s;
+    }
+    header .lhead-show {
+        transform: translate(0) !important;
+        -webkit-transform: translate(0) !important;
+    }
+    header .lhead-nav ul {
+        flex-direction: column !important;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
     }
     /* main-area */
     .main-left-items,
@@ -267,6 +287,78 @@
         transform: scale(1);
         margin-bottom: 24px;
     }
+    /* jobs */
+    #jobs {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .jobs-title {
+        font-size: 32px;
+        line-height: 34px;
+    }
+    .jobs-item {
+        margin-top: 32px;
+    }
+    .jobs-item-right {
+        margin-bottom: 32px;
+    }
+    .jobs-desc h4 {
+        font-size: 18px;
+        line-height: 16px;
+    }
+    .jobs-desc span {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .j-btn {
+        font-size: 15px;
+    }
+    .jp-10 {
+        padding: 0px 10px;
+    }
+    .jobs-img {
+        max-height: 350px;
+    }
+    .jp-32 {
+        padding-top: 32px;
+    }
+    /* ourAppr */
+    #ourAppr,
+    #how-it-work {
+        padding-top: 16px;
+        padding-bottom: 32px;
+    }
+    #ourAppr .main-title h2,
+    #how-it-work .main-title h2 {
+        margin-bottom: 32px !important;
+    }
+    .ourAppr-desc h4 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .ourAppr-desc small {
+        font-size: 12px;
+        line-height: 7px;
+    }
+    /* how it work */
+    .hw-desc h3 {
+        font-size: 14px;
+        line-height: 32px;
+    }
+    .hw-desc span {
+        font-size: 12px;
+        line-height: 21px;
+    }
+    .hw-img img {
+        width: 50%;
+    }
+    /* appr headline */
+    .appr-cons {
+        font-size: 11px;
+    }
+    footer ul {
+        display: none !important;
+    }
     /* ANIMATIONS */
     #main-area .main-left-item .slideInDown,
     #main-area .main-left-item .slideInUp,
@@ -284,7 +376,6 @@
         max-width: 100%;
     }
     /* header */
-    header ul,
     header .store-items {
         display: none !important;
     }
@@ -294,6 +385,27 @@
     .hamburger-menu {
         display: block;
         font-size: 1.8rem;
+    }
+    header .lhead-nav {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #ccaaf0;
+        top: 59px;
+        left: 0;
+        -webkit-transform: translate(-100%);
+        transform: translate(-100%);
+        transition: .5s;
+    }
+    header .lhead-show {
+        transform: translate(0) !important;
+        -webkit-transform: translate(0) !important;
+    }
+    header .lhead-nav ul {
+        flex-direction: column !important;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
     }
     /* main-area */
     #main-area h1 {
@@ -515,6 +627,72 @@
     .ls-right .lsr-right img {
         transform: scale(1);
     }
+    .ls-left {
+        padding: 32px 0 0 8px;
+    }
+    /* jobs */
+    #jobs {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .jobs-title {
+        font-size: 32px;
+        line-height: 34px;
+    }
+    .jobs-item {
+        margin-top: 32px;
+    }
+    .jobs-item-right {
+        margin-bottom: 32px;
+    }
+    .jobs-desc h4 {
+        font-size: 18px;
+        line-height: 16px;
+    }
+    .jobs-desc span {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .j-btn {
+        font-size: 15px;
+    }
+    .jp-10 {
+        padding: 0px 10px;
+    }
+    /* ourAppr */
+    #ourAppr,
+    #how-it-work {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    #ourAppr .main-title h2,
+    #how-it-work .main-title h2 {
+        margin-bottom: 32px;
+    }
+    .ourAppr-desc h4 {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .ourAppr-desc small {
+        font-size: 13px;
+        line-height: 7px;
+    }
+    /* how it work */
+    .hw-desc h3 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .hw-desc span {
+        font-size: 13px;
+        line-height: 21px;
+    }
+    /* appr headline */
+    .appr-cons {
+        font-size: 13px;
+    }
+    footer ul {
+        display: none !important;
+    }
 }
 
 
@@ -522,12 +700,32 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     /* header */
-    header ul,
     header .store-items {
         display: none !important;
     }
     .hamburger-menu {
         display: block;
+    }
+    header .lhead-nav {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #ccaaf0;
+        top: 80px;
+        left: 0;
+        -webkit-transform: translate(-100%);
+        transform: translate(-100%);
+        transition: .5s;
+    }
+    header .lhead-show {
+        transform: translate(0) !important;
+        -webkit-transform: translate(0) !important;
+    }
+    header .lhead-nav ul {
+        flex-direction: column !important;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
     }
     /* main-area */
     #main-area h1 {
@@ -708,6 +906,64 @@
     .ls-right .lsr-right img {
         transform: scale(1.2);
     }
+    /* jobs */
+    #jobs {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .jobs-title {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .jobs-item {
+        margin-top: 48px;
+    }
+    .jobs-item-right {
+        margin-bottom: 48px;
+    }
+    .jobs-desc h4 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .jobs-desc span {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .j-btn {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .jp-10 {
+        padding: 0px 10px;
+    }
+    /* ourAppr */
+    #ourAppr,
+    #how-it-work {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    #ourAppr .main-title h2 {
+        margin-bottom: 48px;
+    }
+    .ourAppr-desc h4 {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .ourAppr-desc small {
+        font-size: 13px;
+        line-height: 7px;
+    }
+    /* how it work */
+    #how-it-work .main-title h2 {
+        margin-bottom: 32px;
+    }
+    .hw-desc h3 {
+        font-size: 21px;
+        line-height: 18px;
+    }
+    .hw-desc span {
+        font-size: 14px;
+    }
 }
 
 
@@ -794,5 +1050,58 @@
     .ls-left .ls-btn {
         font-size: 18px;
         line-height: 22px;
+    }
+    /* jobs */
+    #jobs {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+    .jobs-title {
+        font-size: 40px;
+        line-height: 42px;
+    }
+    .jobs-item {
+        margin-top: 64px;
+    }
+    .jobs-item-right {
+        margin-bottom: 64px;
+    }
+    .jobs-desc h4 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .jobs-desc span {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .j-btn {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    /* ourAppr */
+    #ourAppr,
+    #how-it-work {
+        padding-top: 48px;
+        padding-bottom: 56px;
+    }
+    .ourAppr-desc h4 {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .ourAppr-desc small {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    /* how it work */
+    #how-it-work .main-title h2 {
+        margin-bottom: 48px;
+    }
+    .hw-desc h3 {
+        font-size: 23px;
+        line-height: 27px;
+    }
+    .hw-desc span {
+        font-size: 15px;
+        line-height: 23px;
     }
 }

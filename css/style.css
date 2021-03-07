@@ -66,8 +66,9 @@ header .nav li .nav-link:hover:before {
     right: 10px;
 }
 
-header .nav li .nav-link:hover {
-    color: #8C30F5;
+header .nav li .nav-link:hover,
+header ul li .l-active {
+    color: #8C30F5 !important;
 }
 
 header .nav li button {
@@ -701,16 +702,32 @@ footer .nav li a:hover {
     margin-bottom: 0;
 }
 
-.jp-55 {
-    padding: 0 55px;
+.jp-40 {
+    padding: 0 40px;
 }
 
 .jobs-item {
     margin-top: 80px;
+    transition: all .5s ease;
 }
 
 .jobs-item-right {
     margin-bottom: 80px;
+    transition: all .5s ease;
+}
+
+.jobs-item:hover,
+.jobs-item-right:hover {
+    text-decoration: none !important;
+}
+
+.jobs-item:hover .jobs-img img,
+.jobs-item-right:hover .jobs-img img {
+    transform: scale(1.2);
+}
+
+.jobs-img {
+    border-radius: 8px;
 }
 
 .jobs-img img {
@@ -718,6 +735,7 @@ footer .nav li a:hover {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    transition: all .5s ease;
 }
 
 .jobs-desc {
@@ -756,33 +774,98 @@ footer .nav li a:hover {
 }
 
 
+/* error */
+
+#landify-error {
+    min-height: 49.5vh;
+    background: #ccaaf0;
+}
+
+#landify-error .main-title {
+    max-width: 100%;
+}
+
+
+/* ourAppr desc */
+
+#ourAppr,
+#how-it-work {
+    padding-top: 64px;
+    padding-bottom: 80px;
+}
+
+#ourAppr .main-title,
+#how-it-work .main-title {
+    max-width: 100%;
+}
+
+#ourAppr .main-title h2,
+#how-it-work .main-title h2 {
+    margin-bottom: 56px;
+}
+
+.ourAppr-logo img:first-child {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.ourAppr-desc h4 {
+    color: #18191F;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: Manrope-Bold;
+}
+
+.ourAppr-desc small {
+    color: #18191F;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: Manrope-Regular;
+}
+
+
+/* how-it-work */
+
+.hw-img img {
+    width: 80%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.hw-desc h3 {
+    color: #18191F;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: Manrope-SemiBold;
+}
+
+.hw-desc span {
+    color: #18191F;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: Manrope-Regular;
+}
+
+
+/* appr headline */
+
+.appr-cons {
+    color: #2ec5ce;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Manrope-ExtraBold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.appr-hd-img {
+    background: none;
+}
+
+
 /* ANIMATIONS  */
-
-#about .main-title .fadeInUp,
-#about .fadeInDown {
-    animation-duration: 2s;
-}
-
-#main-area .main-left-item .slideInDown,
-#main-area .main-left-item .slideInUp,
-#main-area .slideInRight {
-    animation-duration: 3s;
-}
-
-#partner .fadeIn {
-    animation-duration: 2s;
-}
-
-#customers .fadeIn,
-#customers .slideInLeft,
-#customers .slideInUp,
-#customers .slideInRight {
-    animation-duration: 2s;
-}
-
-#achivments .rubberBand {
-    animation-duration: 1.2s;
-}
 
 #projects .fadeInDown,
 #projects .fadeInUp,
@@ -792,4 +875,35 @@ footer .nav li a:hover {
 
 #clients-comment .slideInUp {
     animation-duration: 1s;
+}
+
+#achivments .rubberBand {
+    animation-duration: 1.2s;
+}
+
+#about .main-title .fadeInUp,
+#about .fadeInDown,
+#partner .fadeIn,
+#customers .fadeIn,
+#customers .slideInLeft,
+#customers .slideInUp,
+#customers .slideInRight,
+#jobs .slideInLeft,
+#jobs .slideInRight,
+#jobs .fadeIn,
+#jobs .flipInX,
+#landify-error .fadeInDown,
+#headline .rotateInDownRight {
+    animation-duration: 2s;
+}
+
+#main-area .main-left-item .slideInDown,
+#main-area .main-left-item .slideInUp,
+#main-area .slideInRight,
+#ourAppr .bounceIn,
+#ourAppr .bounceInLeft,
+#ourAppr .bounceInRight,
+#headline .rotateInDownLeft,
+#how-it-work .fadeIn {
+    animation-duration: 3s;
 }
